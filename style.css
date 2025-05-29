@@ -1,0 +1,57 @@
+*{
+    background-color: rgb(191, 244, 121);
+    font-family: "Ga Maamli", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.883);
+}
+
+p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+button {
+    all: unset;
+    width: 100px;
+    transition:1s;
+}
+
+button:hover{
+    transform:scale(1.2);
+}
+
+.main{ 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#container{
+   display: flex;
+   flex-wrap: wrap;
+   flex-shrink: 0;
+   justify-content: center;
+   outline: 10px solid rgb(61, 60, 60);
+   height: 400px;
+   width: 400px;
+}
+
+.items{
+    outline:2px solid rgb(105, 103, 103);
+    background-color: rgba(234, 240, 240, 0.772);
+    
+}

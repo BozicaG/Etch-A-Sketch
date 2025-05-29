@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">  
+        <title>Etch-a Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="etch.js" defer></script>
+    </head>
+    <body>
+        <h1>Etch-a Sketch</h1>
+
+        <div class="buttons">
+            <button type="button" id="size">
+                <img id="start" src="pictures/play-solid.svg" alt="start" width="90" height="70"></button>
+
+            <button type="button" id="random"><img id="random" src="pictures/paint.png" alt="colors" width="80" height="70"></button>
+
+            <button type="button" id="eraser" onclick="window.location.reload()"><img src="pictures/eraser-svgrepo-com.svg" alt="eraser" width="70"></button>
+        </div>
+
+        <div class="main">
+            <div id="container"></div>
+        </div>
+        
+    </body>
+</html>
