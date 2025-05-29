@@ -4,6 +4,7 @@ Etch a Sketch is a retro game in which we can draw pixel art. Move the mouse by 
 
 ## DEMO
 
+[Etch A Sketch] (https://bozicag.github.io/Etch-A-Sketch)
 
 ## Technologies used
 
